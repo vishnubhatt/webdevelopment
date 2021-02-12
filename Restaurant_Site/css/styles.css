@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #61122f;
+}
+
+nav{
+    background-color: white;
+}
+
+.container{
+    
+    margin: auto;
+    
+}
+
+#header-nav{
+    background-color: white;
+    border-radius: 0px;
+    border: 0;
+    height: auto;
+    
+}
+
+.logoimage{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+#logo-img{
+    
+    width: 50%;
+    height: 300px;
+    
+    
+}
+
+#rest_name{
+    color: red;
+}
+
+.navbar-header a{
+    width: 100%;
+}
+.navbar-brand h1{
+    
+
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px chartreuse;
+    line-height: .75;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar-brand a:hover, a:focus{
+    text-decoration: none;
+}
+.navbar-header{
+    float: left;
+}
+.navbar-brand{
+    float: left;
+}
+#clear {
+    clear: both;
+}
+
+.navbar-toggler{
+    color: black;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.navbar-header button.navbar-toggler{
+    clear: both;
+}
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav {
+    position: relative;
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .site-logo {
+          display: none;
+    }
+}
+
+
+
+.container .jumbotron{
+    background-image: url("../images/logo2.png");
+    height: 350px;
+    background-color: sandybrown;
+    border: 2px solid wheat;
+    box-shadow: 0 0 20px;
+    background-size: cover;
+    
+}
+
+#rajasthani{
+    width: 18rem; 
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+#north {
+    width: 18rem; 
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+#south{
+    width: 18rem; 
+    float: left;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    
+}
+
+#rajasthani:hover{
+    border: 2px red;
+    box-shadow: 0 1px 15px 1px #cccccc;
+}
+#north:hover{
+    border: 2px red;
+    box-shadow: 0 1px 15px 1px #cccccc;
+}
+#south:hover{
+    border: 2px red;
+    box-shadow: 0 1px 15px 1px #cccccc;
+}
+
